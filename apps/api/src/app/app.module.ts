@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from '@frontend-challenge/api/database';
+import { DatabaseModule } from '../libs/database/src';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';

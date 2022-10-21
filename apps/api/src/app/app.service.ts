@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { DatabaseService } from '@frontend-challenge/api/database';
+import { DatabaseService } from '../libs/database/src';
 import { v4 as uuid } from 'uuid';
 import { CreateTaskDTO } from './types';
 import {
